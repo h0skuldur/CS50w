@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!--Navigation-->
+    <header>
+      <nav class="navbar">
+        <ul class="nav-items">
+          <li>
+            <a class="anchor" href="image.html">Image Search</a>
+          </li>
+          <li>
+            <a class="anchor" href="advanced.html">Advanced Search</a>
+          </li>
+          <div class="avatar-container">
+            <li>
+              <a class="anchor" href="https://github.com/h0skuldur">
+                <img class="avatar" src="assets/avatar.jpg" alt="profile-pic" />
+              </a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="logo-container">
+        <img
+          class="main-logo"
+          src="assets/logo.png"
+          alt="Google Logo Colorful"
+        />
+      </div>
+      <form action="https://www.google.com/search">
+        <div class="w-space"></div>
+        <div class="wrapper">
+          <div class="search-bar">
+            <svg
+              class="svg"
+              focusable="false"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              ></path>
+            </svg>
+            <input type="text" autocomplete="off" name="q" />
+          </div>
+          <div class="btn-container">
+            <button class="btn" type="submit">Google Search</button>
+            <button class="btn" type="submit" name="btnI">
+              I'm Feeling Lucky
+            </button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

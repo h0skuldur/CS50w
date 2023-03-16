@@ -1,0 +1,103 @@
+.logo-top {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+
+.logo-sm {
+  width: 74px;
+  height: 24px;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.label-big {
+  display: inline;
+  font-size: 20px;
+}
+
+.appbar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.line-br {
+  border-bottom: 1px solid #ebebeb;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  font-size: 13px;
+}
+
+.form-group input {
+  height: 32px;
+  width: 85%;
+  margin-right: 45px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  padding: 1px 8px;
+}
+
+.container {
+  margin-left: 45px;
+  margin-top: 40px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label-find {
+  font-size: 16px;
+}
+
+.la-s {
+  min-width: 167px;
+}
+
+.adv-btn-container {
+  text-align: right;
+}
+
+.adv-btn {
+  height: 30px;
+  min-width: 120px;
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  border: 1px solid #3079ed;
+  color: #fff;
+  margin-right: 45px;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 0 12px 0 12px;
+  cursor: pointer;
+}
+
+.adv-btn:hover {
+  background-color: #357ae8;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #357ae8);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#4d90fe),
+    to(#357ae8)
+  );
+  background-image: linear-gradient(top, #4d90fe, #357ae8);
+  border: 1px solid #2f5bb7;
+  -webkit-border-image: initial;
+  border-image: initial;
+}

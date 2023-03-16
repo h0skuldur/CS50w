@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, "Roboto", Helvetica, sans-serif;
+  font-size: 14px;
+  height: 100%;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  padding: 6px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-items {
+  font-size: 13px;
+  gap: 15px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 4px 0 0;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #202124;
+}
+
+.avatar-container {
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 65vh;
+  justify-content: center;
+}
+
+.logo-container {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-logo {
+  max-height: 230px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.svg {
+  fill: #9aa0a6;
+  justify-content: center;
+  height: 20px;
+  margin: auto;
+  padding-left: 14px;
+  padding-right: 13px;
+}
+
+.search-bar {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+
+.search-bar input {
+  font-size: 16px;
+  flex: 100%;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+}
+
+.btn-container {
+  height: 70px;
+  padding-top: 10px;
+  display: block;
+  text-align: -webkit-center;
+}
+
+.btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.wrapper {
+  padding: 20px;
+  max-height: 160px;
+  flex-shrink: 0;
+}
+
+/* Pseudo Classes */
+
+.anchor:hover {
+  text-decoration: underline;
+}
+
+.avatar-container:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.search-bar:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.w-space {
+  display: flex;
+  padding-top: 6px;
+}
+
+.abs-px {
+  position: absolute;
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  left: 258px;
+  bottom: 0;
+  white-space: nowrap;
+}
